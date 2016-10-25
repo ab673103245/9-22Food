@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/my_food"
+        android:icon="@mipmap/ic_launcher"
+        android:title="我的美食"/>
+    <item
+        android:id="@+id/my_col"
+        android:icon="@mipmap/ic_launcher"
+        android:title="我的收藏"/>
+    <group android:id="@+id/g1">
+        <item
+            android:icon="@mipmap/ic_launcher"
+            android:title="设置"/>
+        <item
+            android:icon="@mipmap/ic_launcher"
+            android:title="分享"/>
+        <item
+            android:icon="@mipmap/ic_launcher"
+            android:title="关于我"/>
+    </group>
+</menu>
